@@ -25,7 +25,7 @@ LOGO = '''
 print(LOGO)
 
 
-def caesar_cipher(text: str, shift: int, direction: str = "encode") -> str:
+def caesar_cipher(text: str, shift: int, direction: str = "encode"):
     """
     Method to encode and decode text with a given shift number
     """
